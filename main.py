@@ -85,12 +85,11 @@ class Game:
 		]
 	def take_turn(self):
 		return
-	
- 	def get_room_prompt(self):
+	def get_room_prompt(self):
 		prompt = "Enter the 3 digit lock code or choose an item to interact with\n"
-  		names = self.room.get_game_object_names()
-  	    	for name in names:
+		names = self.room.get_game_object_names()
+		for name in names:
       			prompt += f"{name}\n"
-
+				  
 game = Game()
 game.take_turn()
