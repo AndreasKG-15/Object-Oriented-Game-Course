@@ -90,6 +90,6 @@ class Game:
 		names = self.room.get_game_object_names()
 		for name in names:
       			prompt += f"{name}\n"
-				  
+
 game = Game()
 game.take_turn()
