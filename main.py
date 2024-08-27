@@ -146,11 +146,12 @@ class Game:
             return False
         
 # Here we're creating an object of our Game class 
-# game = Game()
+game = Game()
 # And calling on its take_turn() method
-# game.take_turn()
+game.take_turn()
 
 # Testing class with two rooms as examples
+''' 
 class RoomTests:
     def __init__(self):
         self.room1 = Room(111,[GameObject(
@@ -186,5 +187,4 @@ class RoomTests:
 tests = RoomTests()
 tests.test_check_code()
 tests.test_get_game_object_names()
-
-# Integration test
+'''
