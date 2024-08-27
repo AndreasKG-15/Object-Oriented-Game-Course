@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.py",
               "DocumentMoniker": "H:\\GitHub\\Object-Oriented-Game-Course\\main.py",
               "RelativeDocumentMoniker": "main.py",
-              "ToolTip": "H:\\GitHub\\Object-Oriented-Game-Course\\main.py",
-              "RelativeToolTip": "main.py",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAhwF4AAAAQAAAAAAAAAA==",
+              "ToolTip": "H:\\GitHub\\Object-Oriented-Game-Course\\main.py*",
+              "RelativeToolTip": "main.py*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAMwF4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-08-26T12:35:36.173Z",
               "EditorCaption": ""
